@@ -1,0 +1,10 @@
+*****************************************
+**************** READ ME ****************
+*****************************************
+
+basic_login is a shell with no database connected.
+
+You will need to connect a database with the correct
+structure (ERD provided).
+
+!!! application will error out if database is not configured !!!
