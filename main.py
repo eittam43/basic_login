@@ -16,8 +16,7 @@ pw_input_str = StringVar("")
 
 def check_cred():
     ''' def check_cred(): connect to database and gather user name and password from cred
-        table stored in database. return results in two strings
-         parse into format_creds(): '''
+        table stored in database. call format_creds(): and pass in user name and password'''
     conn_str = ()  # *** Add database path and auth. *** #
     conn = pyodbc.connect(conn_str)  # *** Create database connection *** #
     cur = conn.cursor()  # *** Create cursor object *** #
